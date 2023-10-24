@@ -4,9 +4,9 @@ import { getEmployee, getEmployees, createEmployee, updateEmployee, deleteEmploy
 const router = Router()
 
 router.get( "/employee", getEmployees );
-router.get( "/employee/id", getEmployee );
+router.get( "/employee/:id", getEmployee );
 router.post( "/employee", createEmployee );
-router.put( "/employee/id", updateEmployee );
-router.delete( "/employee/id", deleteEmployee );
+router.put( "/employee/:id", updateEmployee );
+router.delete( "/employee/:id", deleteEmployee );
 
 export default router;
