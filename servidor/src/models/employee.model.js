@@ -9,7 +9,7 @@ const employeSchema = new mongoose.Schema({
         type: String,
         require: true
     },
-    sexo:{
+    genero:{
         type: String,
         require: true
     },
